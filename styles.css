@@ -44,7 +44,7 @@ header h1{
 header p{
 
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
    text-decoration: none;
 
 }
@@ -94,3 +94,23 @@ ul.links li a{
  footer{
     font-size: 20px;
  }
+@media only screen and ( max-width :600px){
+
+    header h1{
+    font-size: 23px;
+}
+
+.hh1{
+    font-size: 25px;
+    padding-top: 20px;
+
+}
+
+header p{
+
+    padding-top: 20px;
+    font-size: 20px;
+   text-decoration: none;
+
+}
+}
