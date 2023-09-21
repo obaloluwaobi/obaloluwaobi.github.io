@@ -118,27 +118,4 @@ footer{
  }
 }
 
-@media only screen and ( max-width :600px){
-
-    header h1{
-    font-size: 23px;
-}
-
-.hh1{
-    font-size: 25px;
-    padding-top: 20px;
-
-}
-
-header p{
-       margin:0;
-    padding-top: 20px;
-    font-size: 20px;
-   text-decoration: none;
-
-}
-footer{
-    font-size: 15px;
- }
-}
 
