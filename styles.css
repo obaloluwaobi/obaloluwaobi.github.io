@@ -56,11 +56,13 @@ header .profile-image{
     height: 200px;
     margin: 0 auto 20px;
     overflow: hidden;
+    background-image: url('assets/profile.png'); 
+    background-size: cover; 
+    background-position: center; 
 }
 
 header .profile-image img{
-    max-width: 60%;
-    height: auto;
+    display:none;
     
 }
 
