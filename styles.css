@@ -105,8 +105,6 @@ header p{
     padding: 20px;
     font-size:18px;
     text-decoration: none;
-    overflow-wrap:break-word;
-    word-wrap:break-word;
     hyphens:auto;
 }
 footer{
