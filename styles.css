@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-family:  cursive, sans-serif;
+    font-family:  cursive;
 }
 
 .card{
@@ -131,5 +131,7 @@ background-color: indigo;
      button:hover{
         width: 180px;
      }
-
+    body{
+         font-family:  cursive
+    }
 }
