@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.4.0"
+    "tailwindcss": "^3.4.3"
   },
   "name": "obaloluwaobi.github.io",
   "description": "Official 100days coding challenge site",
@@ -34,8 +34,8 @@
     "function-bind": "^1.1.2",
     "glob": "^10.3.10",
     "glob-parent": "^6.0.2",
-    "is-binary-path": "^2.1.0",
     "hasown": "^2.0.0",
+    "is-binary-path": "^2.1.0",
     "is-core-module": "^2.13.1",
     "is-extglob": "^2.1.1",
     "is-fullwidth-code-point": "^3.0.0",
@@ -48,9 +48,9 @@
     "lines-and-columns": "^1.2.4",
     "lru-cache": "^10.1.0",
     "merge2": "^1.4.1",
-    "minipass": "^7.0.4",
     "micromatch": "^4.0.5",
     "minimatch": "^9.0.3",
+    "minipass": "^7.0.4",
     "mz": "^2.7.0",
     "nanoid": "^3.3.7",
     "normalize-path": "^3.0.0",
@@ -58,8 +58,8 @@
     "object-hash": "^3.0.0",
     "path-key": "^3.1.1",
     "path-parse": "^1.0.7",
-    "picocolors": "^1.0.0",
     "path-scurry": "^1.10.1",
+    "picocolors": "^1.0.0",
     "picomatch": "^2.3.1",
     "pify": "^2.3.0",
     "pirates": "^4.0.6",
@@ -76,8 +76,8 @@
     "resolve": "^1.22.8",
     "reusify": "^1.0.4",
     "run-parallel": "^1.2.0",
-    "shebang-regex": "^3.0.0",
     "shebang-command": "^2.0.0",
+    "shebang-regex": "^3.0.0",
     "signal-exit": "^4.1.0",
     "source-map-js": "^1.0.2",
     "string-width": "^5.1.2",
@@ -89,15 +89,16 @@
     "thenify": "^3.3.1",
     "thenify-all": "^1.6.0",
     "to-regex-range": "^5.0.1",
-    "util-deprecate": "^1.0.2",
     "ts-interface-checker": "^0.1.13",
-    "wrap-ansi": "^8.1.0",
+    "util-deprecate": "^1.0.2",
     "which": "^2.0.2",
-    "yaml": "^2.3.4",
-    "wrap-ansi-cjs": "^7.0.0"
+    "wrap-ansi": "^8.1.0",
+    "wrap-ansi-cjs": "^7.0.0",
+    "yaml": "^2.3.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
