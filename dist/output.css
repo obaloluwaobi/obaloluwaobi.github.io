@@ -592,20 +592,12 @@ video {
   position: sticky;
 }
 
-.order-2 {
-  order: 2;
-}
-
-.order-1 {
-  order: 1;
+.m-5 {
+  margin: 1.25rem;
 }
 
 .m-9 {
   margin: 2.25rem;
-}
-
-.m-5 {
-  margin: 1.25rem;
 }
 
 .mx-20 {
@@ -647,10 +639,6 @@ video {
 
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.ml-96 {
-  margin-left: 24rem;
 }
 
 .mt-20 {
@@ -769,20 +757,8 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-bl-3xl {
-  border-bottom-left-radius: 1.5rem;
 }
 
 .border-b-2 {
